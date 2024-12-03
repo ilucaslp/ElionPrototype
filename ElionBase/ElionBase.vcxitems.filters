@@ -1,0 +1,2793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Root">
+      <UniqueIdentifier>{6d63d7a9-d1f1-4928-b232-ade5cd394b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{2a9be901-cd62-471d-9427-1e34c3be83b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Input">
+      <UniqueIdentifier>{0f7394cb-ddfd-47c2-bc59-6e9724d370ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{366c8192-23f2-41de-9a2f-87e25bdc380c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Resource">
+      <UniqueIdentifier>{4b87bbf2-cd6e-42eb-aca7-1630bf6085b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Window">
+      <UniqueIdentifier>{49397151-76d7-4a72-ae08-d43e284b4720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Video">
+      <UniqueIdentifier>{38c951cd-44df-4e14-9d46-a7a0351ef051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timers">
+      <UniqueIdentifier>{dfe5fc7c-8f76-4a69-ae14-e07edcb9ec4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Resource\Texture">
+      <UniqueIdentifier>{c42c1cb3-d08a-4906-ac36-3abede94f563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6462ac11-413b-44b7-a9fb-0724c64a6864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Loader">
+      <UniqueIdentifier>{31b7ce65-2126-4903-9da1-ea14ce12be0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers\Random">
+      <UniqueIdentifier>{1c446c2e-810d-4278-9e41-9fa09d48dd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers\Standard">
+      <UniqueIdentifier>{16d85480-24d8-4fc7-967f-528f2572dd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{26379d2e-57dd-4964-82d3-1044135f6b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\List">
+      <UniqueIdentifier>{bb8a162e-0039-44c6-9cea-d45f1526ac8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\TextureAtlas">
+      <UniqueIdentifier>{37838e4a-6cc3-4c54-8bab-fa07d1f29b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Resource\Font">
+      <UniqueIdentifier>{1dfe4f18-0f62-4cc0-889b-814da62a5ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers\Console">
+      <UniqueIdentifier>{3b5ce8e4-655a-4a18-a001-2ebb5965e8cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers\Math">
+      <UniqueIdentifier>{0cd48973-5db7-4539-9d30-4dd4bd69148c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Video\Shader">
+      <UniqueIdentifier>{24fcc300-999e-4024-a25e-2ec88db1ea83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Theading">
+      <UniqueIdentifier>{106bc9b9-38ec-4d8a-a738-25f2e88b9a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Resource\Loading">
+      <UniqueIdentifier>{e6cfd844-66d8-472b-b0e3-47e78de5e78f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{be49a499-f12c-4cf7-bcfc-21c32261a342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Base">
+      <UniqueIdentifier>{2172ba82-40e4-42b9-b3ef-307a0f705a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Resource\Terrain">
+      <UniqueIdentifier>{d42a887c-2c7a-43e1-a443-5174874aa15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{9cd944b0-64e2-4451-b315-875c0e6fe38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers\Misc">
+      <UniqueIdentifier>{218afee7-3f4d-459c-8ed4-e61f35ca0194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Resource\Model">
+      <UniqueIdentifier>{a9625fce-f0f4-4817-8e70-19603eafdb00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Culling">
+      <UniqueIdentifier>{6a5e9e47-21cc-4d9f-be0f-f90ccf483165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Theading\Tasking">
+      <UniqueIdentifier>{8f656650-de78-48f4-b91f-072136ea6efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{c90e3029-47ed-41f4-a3eb-1ff2c9eb1ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Models">
+      <UniqueIdentifier>{bac90284-f5a8-4251-b363-c126394fa9a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Textures">
+      <UniqueIdentifier>{3d0cdcf6-f9af-4d44-962b-ac8f9e209c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Interface">
+      <UniqueIdentifier>{9494a883-934e-482a-83ae-83d950f2c137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{2f36ff67-066d-4e2b-8a63-a04d2b365ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Audio">
+      <UniqueIdentifier>{189586ff-b5e6-4069-8a82-d3d5e6d1e630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Audio\Source">
+      <UniqueIdentifier>{90f6cf9b-aef2-4274-b77d-30883ba21f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Audio\WAV">
+      <UniqueIdentifier>{c21296bf-a099-4a75-8250-7f6a93c5d1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sounds">
+      <UniqueIdentifier>{6f0e753c-6d85-4a4c-93a0-e8204e697d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Music">
+      <UniqueIdentifier>{a87f554e-0928-4670-92f4-daaae7379a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{e37a2e4d-04c2-4928-a12a-b443763648e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Chaos Castle">
+      <UniqueIdentifier>{b049bdf1-8de8-4ae9-8286-ff50a1b241c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direction">
+      <UniqueIdentifier>{6a4668ac-49e2-46b7-859f-27de379abc54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e422e1d3-1dcb-4779-b81f-73f39c3cf448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Environment">
+      <UniqueIdentifier>{ba4fc265-875b-4592-a85b-d5552d2bc0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Particles">
+      <UniqueIdentifier>{54511dc5-75c9-4394-a134-e30a41007dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects Base">
+      <UniqueIdentifier>{adf2d092-b38e-4d8f-a3cc-571ae6cc4fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sprites">
+      <UniqueIdentifier>{04ec0fc2-7b57-462e-8f9c-33d73b6fc4c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Joints">
+      <UniqueIdentifier>{b66db734-ffb8-4f6e-8622-ffd045b888e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Characters">
+      <UniqueIdentifier>{41d97194-365a-419d-a696-a4d56f86cf49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Operates">
+      <UniqueIdentifier>{d7a39bb6-64d6-43b4-84d1-d0dc9757acb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Render Proxy">
+      <UniqueIdentifier>{35d1276d-5080-455b-9aed-70c2c7a27f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effects">
+      <UniqueIdentifier>{c6603b4d-a546-4c3d-a5a8-98ab7b6553b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Buff">
+      <UniqueIdentifier>{2c7b16e0-28e8-4561-a127-63fd68b78cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Blurs">
+      <UniqueIdentifier>{a46f4998-a118-44a8-afa7-5892c4972678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Tile Sprites">
+      <UniqueIdentifier>{9f792354-bfb9-4ca1-a374-6c9bd3d638d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{b12cdefa-dd6b-45cf-b8cc-8c2fbf372471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs">
+      <UniqueIdentifier>{11d266d3-a227-46c0-8a64-5843d96e2844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Character">
+      <UniqueIdentifier>{42829c3f-93f4-489d-91eb-08921ba408a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Monster">
+      <UniqueIdentifier>{1e5b574e-d9f8-4701-9ecf-5177e3f7e312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Item">
+      <UniqueIdentifier>{8614e78d-016b-44f1-980f-91825bdae028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Skill">
+      <UniqueIdentifier>{4dcc747b-ab06-41b9-9af4-508c1a33c5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\JewelHarmonyInfo">
+      <UniqueIdentifier>{8ba7ebf5-89cf-4edb-8f58-0ea162558ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Data">
+      <UniqueIdentifier>{2b31e921-4bb1-4ea3-bb9a-19b84204f253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\SetItemOption">
+      <UniqueIdentifier>{1d0f2ea4-fdb6-489f-bcf6-8205a5abcef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\ItemAddOption">
+      <UniqueIdentifier>{88083390-45ff-4ff4-bd89-8e243411646b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\GlobalText">
+      <UniqueIdentifier>{bf44bf16-5201-4a4b-9a2e-0d2c04577fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Gate">
+      <UniqueIdentifier>{1da4161c-3634-43ea-8b19-1ef213a0a45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\SocketSystem">
+      <UniqueIdentifier>{eba05256-aa38-4f8b-bfff-ca9cc4fe2502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{a8ffd0c8-2ad7-4afc-b5cc-bc52341eef82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Information">
+      <UniqueIdentifier>{be8b86c6-f4dc-4ec1-9856-ae352194894f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Guild">
+      <UniqueIdentifier>{414dfdcc-ab7a-4d0b-a620-55fb6f3d21f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Party">
+      <UniqueIdentifier>{fb924c30-c1f5-40cc-b6e0-2092ab4efc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Pets">
+      <UniqueIdentifier>{19b8f384-8878-48e6-a2d1-8af740457f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{1131b8e1-b861-4768-b3de-0f297e21dfbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Parts">
+      <UniqueIdentifier>{6a6d1027-a603-4264-aae5-043d8d26fd41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Summon">
+      <UniqueIdentifier>{2e1944e7-d5e8-498e-962c-218342db2f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Duel">
+      <UniqueIdentifier>{fe01be3d-a166-42e1-95bf-b89ad2f99cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pets">
+      <UniqueIdentifier>{b75bac5b-e53e-4492-8749-d15515f6462d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pets\Actions">
+      <UniqueIdentifier>{f4b5f6e4-ab01-4fe7-a505-a494b404925e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{00d39160-1482-4b19-b4ab-0b9d55dbe6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\ConnectServer">
+      <UniqueIdentifier>{dfb0b6ca-b995-46e7-a8d4-35c0f86c2806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\GameServer">
+      <UniqueIdentifier>{0569cf75-6bc7-4020-931a-03a5ab081d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\ChatServer">
+      <UniqueIdentifier>{f3412cfb-0b8d-416a-8de7-170128fd5c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{33e94301-c04c-4ed1-91c2-c7b9d332c698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Base">
+      <UniqueIdentifier>{17084a6c-70ae-4dc5-9698-4af1aec18c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Loading">
+      <UniqueIdentifier>{b414e118-cec2-448f-95c5-12c6b7d1cd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game">
+      <UniqueIdentifier>{f41445fd-e3ec-461d-8eaa-1af8b64b2af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Login">
+      <UniqueIdentifier>{a8984eb5-d488-498f-8d23-fdd5c4501a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Character">
+      <UniqueIdentifier>{2e80d55c-634c-4b1e-bc39-e0ba3c18a7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defines">
+      <UniqueIdentifier>{fb89e2be-5a97-4345-9059-13bc47913514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets">
+      <UniqueIdentifier>{01550108-fd9b-47ab-819d-8effb7fa818b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\Button">
+      <UniqueIdentifier>{a7387969-0a02-4397-859d-1dab77483f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\RadioButton">
+      <UniqueIdentifier>{3fb5ee0f-e1d7-4340-85f1-8ea85d3029cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Roots">
+      <UniqueIdentifier>{a214bd59-3dc4-4166-9d4b-c8dcbb6eda2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\Slides">
+      <UniqueIdentifier>{275dc4e0-09f9-4b7d-b18a-0e41a0f1795f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\Sprite">
+      <UniqueIdentifier>{c946974a-2a11-4934-a7c5-a9c12dde1bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\SpriteUV">
+      <UniqueIdentifier>{9ec852c2-de4d-4640-8d9c-4f919b757b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\Text">
+      <UniqueIdentifier>{0f3dab9c-c56a-4886-8e65-88830c6d6080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\ToggleButton">
+      <UniqueIdentifier>{4526d6d8-db61-40bb-ad00-a67c9881f324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\SpriteColor">
+      <UniqueIdentifier>{ed99160a-4a81-47a1-b4d0-561e3abcb3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows">
+      <UniqueIdentifier>{e43ea373-b867-4604-a7ff-9998d2b5c913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox">
+      <UniqueIdentifier>{df93f4d9-110d-43fb-a657-0a3dec9138b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\ConnectBox">
+      <UniqueIdentifier>{ea52a3b2-81ea-4abc-8dbe-ebb2b9a6737b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\DisconnectedBox">
+      <UniqueIdentifier>{c534bbd4-ece8-4880-b2b1-a998068bb9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\Container">
+      <UniqueIdentifier>{4cef82bf-ccec-4f4c-90cc-039472c40441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\OptionWindow">
+      <UniqueIdentifier>{c622d4f7-fb68-4dfe-af96-538a1a3c86c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Login">
+      <UniqueIdentifier>{8e210aad-f56d-4f69-b27f-d3b35205f3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\ServerFull">
+      <UniqueIdentifier>{904144d4-65b0-43b8-a024-dd00b0b297ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\BannedFromServer">
+      <UniqueIdentifier>{7925eb85-e507-4b68-a56b-91857a8448fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\BlockedFromServer">
+      <UniqueIdentifier>{be0d32e7-cb9d-4633-a651-88cebfc2fb43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\FailedConnect">
+      <UniqueIdentifier>{3905260c-7fb5-4538-8839-405bfac15361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Menu">
+      <UniqueIdentifier>{050c87c4-3fe0-4d59-9311-e87e8b0dfefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Menu\Login">
+      <UniqueIdentifier>{4bc586f6-6837-4cbe-837a-a3b8d62a66ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Menu\Character">
+      <UniqueIdentifier>{5de24ce3-f8bf-4cc7-8ca3-5499a84da97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Menu\Game">
+      <UniqueIdentifier>{6dfd2173-e005-42ce-8dfe-3ff14db20d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hashing">
+      <UniqueIdentifier>{24c20761-83f5-42b6-a12e-1c975f4b1e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\OkBox">
+      <UniqueIdentifier>{ff79b365-bdd7-4b17-9e36-cc6738c0d3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Character">
+      <UniqueIdentifier>{18adfbbc-0b4c-4d55-8909-5a30c9eefb4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Login\Logo">
+      <UniqueIdentifier>{d76704f8-a560-4687-8c7f-76557bda218d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Login\LoginFrame">
+      <UniqueIdentifier>{44b8e6f8-4ede-416f-b7b6-15d4794492d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Login\Main">
+      <UniqueIdentifier>{1ef03275-5170-4dff-a46f-20abfd68f9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Login\ServerList">
+      <UniqueIdentifier>{a39d1a0b-c5b5-45b7-8b59-fac24c557674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game">
+      <UniqueIdentifier>{6758eb1c-4ee4-4d5b-a646-59cb4e204372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\MainFrame">
+      <UniqueIdentifier>{4a306c74-47a3-44a2-bc7f-1674af43f791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Inventory">
+      <UniqueIdentifier>{3ebade79-e1af-48aa-a8ee-487e8de6a962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\CharacterInfo">
+      <UniqueIdentifier>{52271b91-d9d9-4c16-af31-a25c05ee584a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Chat">
+      <UniqueIdentifier>{4cde62da-4a3b-4e47-b1a2-8eaafc867845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Character\Main">
+      <UniqueIdentifier>{8fca5778-3f12-4d3f-876a-753b7f6fbae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\WaitingBox">
+      <UniqueIdentifier>{07d21bb6-1dfb-4338-b55b-a3517ba04ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Character\CreateCharacter">
+      <UniqueIdentifier>{5f5e5ebd-37b4-4e0a-9062-98e4d6fc65cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\CharacterInfoBalloon">
+      <UniqueIdentifier>{e5db5d99-6e22-424e-b34c-45fbea0c52a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\DeleteCharacterWarning">
+      <UniqueIdentifier>{b4e027f5-890c-4b41-b84b-417312611093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Waiting">
+      <UniqueIdentifier>{d970a92a-5e32-4536-ac1e-397ce20c97de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\MapName">
+      <UniqueIdentifier>{ad4fbfd6-f7f8-460d-8c9e-e584a8120062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Simple">
+      <UniqueIdentifier>{5f7bf729-eb8c-4f94-a21b-2ce445577874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Points">
+      <UniqueIdentifier>{01e8a4c8-57cc-4c9b-84f5-d1770e464f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\SkillFrame">
+      <UniqueIdentifier>{3110a833-929d-49ec-af1d-5866619d6f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\ExitGame">
+      <UniqueIdentifier>{5ca98387-0ae0-4fc5-8581-7f3f1cea11e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\ChangeServer">
+      <UniqueIdentifier>{c2a0de0d-46e8-4bf4-99e6-3ce94d1cc427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\ChangeCharacter">
+      <UniqueIdentifier>{2237f294-a16f-4389-b672-895f39289491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\BuffStatus">
+      <UniqueIdentifier>{c2f4c7dd-61cf-40be-b67a-4bed9aef5217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\ItemHotkey">
+      <UniqueIdentifier>{694ec9a0-baad-4574-8cfc-e8afa256eb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\HeroPosition">
+      <UniqueIdentifier>{470fb1ef-e712-4d06-ac1f-c7258496580a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Move">
+      <UniqueIdentifier>{809b2534-e161-4001-a442-6f4c88793169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Move">
+      <UniqueIdentifier>{f1180a19-9cbb-403a-abe1-3cbd33b97f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\ScrollBar">
+      <UniqueIdentifier>{0ea3a495-f578-4a41-b955-02cace4b7175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Storage">
+      <UniqueIdentifier>{9a8ab84a-18c4-46a5-b2c0-1fcc79651764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Storage">
+      <UniqueIdentifier>{10d55eed-6a54-4d5a-88c1-6d8e692a81c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Storage\Deposit">
+      <UniqueIdentifier>{b9fa7c08-5861-48a5-ad15-70afacbfa769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Storage\Withdraw">
+      <UniqueIdentifier>{e6ace58f-a68a-469f-9b57-857d527179ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Storage\Lock">
+      <UniqueIdentifier>{46e22270-6327-4869-891f-3abac3c5058d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Shop">
+      <UniqueIdentifier>{c8bca194-0a08-4ee3-b46b-d23939b3628d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Shop\HighValue">
+      <UniqueIdentifier>{bca311da-2ebe-481f-a5c9-bff8549937ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Shop\Gamble">
+      <UniqueIdentifier>{cc436d18-74d8-440e-a7f3-f40714e98ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Shop\PCPoint">
+      <UniqueIdentifier>{4f7e2e80-733f-4ea6-9ee6-3cf0430be8f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Inventory\Control">
+      <UniqueIdentifier>{0d7aede2-a79c-4530-9ac7-d7c1bb0f917e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Inventory\Manager">
+      <UniqueIdentifier>{cd969db0-0508-46a9-9130-da78d06b2bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Inventory\MyInventory">
+      <UniqueIdentifier>{4f49b40f-c0d9-4259-b8b1-5be915267041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Inventory\PickedItem">
+      <UniqueIdentifier>{81b5737c-91cc-436a-a248-dfaa004c638a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\Mix">
+      <UniqueIdentifier>{b33b06f1-287e-4b92-9d92-4e4f2d218f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\ChaosBox">
+      <UniqueIdentifier>{bc14da2a-eb12-43f3-881d-bcc529a6c25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\ChaosBox\MixMenu">
+      <UniqueIdentifier>{c89c9e50-dcc5-48ac-92d7-c9c20409db62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\ChaosBox\MixCheck">
+      <UniqueIdentifier>{be7531ee-fd3d-43bf-a633-5214d4f3562e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Trade">
+      <UniqueIdentifier>{dd547dcf-5c07-4fe4-b03d-a44caecbceed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Party">
+      <UniqueIdentifier>{e298721b-e267-410f-b17e-095d8c705d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Party\Request">
+      <UniqueIdentifier>{620012f9-864b-4959-a29e-e833771a029c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Trade\Request">
+      <UniqueIdentifier>{730f55e7-8461-486f-9550-5bf61ea39a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Party">
+      <UniqueIdentifier>{c74e1aef-6b81-4823-b847-f763ea093557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Party\Window">
+      <UniqueIdentifier>{e6d6a23f-04ee-4501-b070-e8e9da11f933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Mix">
+      <UniqueIdentifier>{d6bc113e-3931-4220-8af6-8ce2f0c82d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Mix\Inventory">
+      <UniqueIdentifier>{ce24ec3e-6094-4f0b-b88e-39c1ae76b517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Shop">
+      <UniqueIdentifier>{1760dd93-64b4-4507-bdf1-1773ccdfaaa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Shop\Inventory">
+      <UniqueIdentifier>{6e3cb46e-a022-4f3b-8dac-19be1604c084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Trade">
+      <UniqueIdentifier>{13e833ed-0e75-4b9a-a31c-0981c96e0012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Trade\Inventory">
+      <UniqueIdentifier>{027cb24a-e052-4e76-83f6-a48213dcaa46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Trade\Money">
+      <UniqueIdentifier>{c6fbe218-0999-427f-8087-5b2674e5bed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Trade\Accept">
+      <UniqueIdentifier>{7074e9d3-85e5-4100-b8a3-6c961dd561c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Guild">
+      <UniqueIdentifier>{b21a927a-7716-4ed7-8293-05bf31e2def1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Guild">
+      <UniqueIdentifier>{2ed8cd79-46f7-4ab1-a244-bbe52fa0d75a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Guild\Info">
+      <UniqueIdentifier>{d94f55ae-dbea-4ba2-8d78-e2d1ffb3b50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Guild\Create">
+      <UniqueIdentifier>{474b082c-8362-4ade-a4f1-ef498a3b3c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\OverButton">
+      <UniqueIdentifier>{8461d299-eb29-4895-8738-7a93f7ec2739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\ServerMessage">
+      <UniqueIdentifier>{1194c50f-ad1e-457e-a1da-7c4c3251a712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Widgets\SliderBar">
+      <UniqueIdentifier>{560085c7-9559-470f-831f-b8028fda2e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Party\List">
+      <UniqueIdentifier>{da82514d-74c3-4b6f-93fc-efa336ef9e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Events">
+      <UniqueIdentifier>{a01b08cc-16ad-446b-a8e6-c796f1a7849b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Events\BloodCastle">
+      <UniqueIdentifier>{bbf6e7d1-ae0c-4c85-8e58-6b680b7fe82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Events">
+      <UniqueIdentifier>{c2cf1e8f-0895-401b-a437-f2d5da49acc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Events\BloodCastle">
+      <UniqueIdentifier>{1ee24cf7-b440-49a7-8e1a-1c7ff2071586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Events\BloodCastle\Timer">
+      <UniqueIdentifier>{9d7a9eca-e1ab-4b6f-9723-844ba3d839bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Events\BloodCastle\Enter">
+      <UniqueIdentifier>{d1de48b5-886f-44c3-a4df-175dbb3b6966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Skill">
+      <UniqueIdentifier>{9c32526c-1969-4a9d-b25c-49802dccb989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Quest">
+      <UniqueIdentifier>{b79e5c51-5222-49e5-9ef5-fbbfce7e724a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Quest\MyQuest">
+      <UniqueIdentifier>{a8f617a8-f0ea-4bb1-80c6-38e25b88f86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quest">
+      <UniqueIdentifier>{6855aadc-8ec0-45b2-90eb-d17525994807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quest\Main">
+      <UniqueIdentifier>{f27c551a-007d-4e58-8c77-24ba906ae4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quest\Dialog">
+      <UniqueIdentifier>{260fb65f-e834-496e-92f9-b9d52509c3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Quest\NpcQuest">
+      <UniqueIdentifier>{c9770ef7-2ae2-4f92-ba97-5737dd70cacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Guild">
+      <UniqueIdentifier>{cf5899de-5d96-4015-a581-fb07736a838c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Guild\Leave">
+      <UniqueIdentifier>{9686eb82-7642-480e-9072-560d68cd6564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Guild\Kick">
+      <UniqueIdentifier>{36cae184-84ea-49a1-b333-086ac30dd747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Guild\Request">
+      <UniqueIdentifier>{b22989e2-63cb-49d2-beea-7e16b2618e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Guild\GuildStatus">
+      <UniqueIdentifier>{c69efae3-177e-4386-aca2-8affcc622252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Guild\GuildStatus\Cancel">
+      <UniqueIdentifier>{fec9959f-f81d-4f6d-b882-4fef0acdfd82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Guild\GuildStatus\Give">
+      <UniqueIdentifier>{6bcea722-4492-4de9-ad7a-cf03bb88f8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Commands">
+      <UniqueIdentifier>{4029346d-39f2-4001-9db7-61c263720a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Helper">
+      <UniqueIdentifier>{5ac0c57a-c89f-43a7-b08f-5e3538b77b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\Game\Helper\Setup">
+      <UniqueIdentifier>{16bced7e-a9ed-4be1-8a60-cbbe7734ce68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper">
+      <UniqueIdentifier>{88adb5d3-666c-4b93-b13f-aa76a582c748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Skill">
+      <UniqueIdentifier>{e2f39e0e-e19f-4d50-a4a5-0cd1a72cc25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Helpers">
+      <UniqueIdentifier>{a4f3168c-6c76-4fba-bcae-8f82310f3e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Helpers\General">
+      <UniqueIdentifier>{e29c26ae-220a-43ee-8974-a803edd94d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Helpers\MsgBox">
+      <UniqueIdentifier>{eb2d8bb5-c869-40cc-831d-f31f5d748b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Helpers\Layouts">
+      <UniqueIdentifier>{8c05fdef-60ca-4383-a5c3-f3eb1505d72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Potion">
+      <UniqueIdentifier>{67da115b-9fc1-47f1-98c9-25d530579369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Potion\Normal">
+      <UniqueIdentifier>{9d67f59a-5617-49ed-bda7-d66f0baf39d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Potion\Elf">
+      <UniqueIdentifier>{a09ec6e3-7521-42d6-aa06-4692913a9362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Party">
+      <UniqueIdentifier>{e335f0bd-ea21-4a61-a372-ab75cbdfe1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Skill\Setting">
+      <UniqueIdentifier>{aece2691-12ed-4b77-856e-29cf8523e223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Skill\Select">
+      <UniqueIdentifier>{911e2ba5-6402-48eb-bd9a-6262a1ff0e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Items">
+      <UniqueIdentifier>{df143a21-29cf-42f2-ade6-61dda867ec1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Items\Add">
+      <UniqueIdentifier>{d9fe21f1-b731-47b5-9527-bf16e359a264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs\ItemCategoriesDB">
+      <UniqueIdentifier>{e80f4022-ef88-47d1-a0f0-89eaf050ebda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Start">
+      <UniqueIdentifier>{7d079acc-da02-46d1-983b-e86eecd31edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Party\Elf">
+      <UniqueIdentifier>{5f123eb2-2a52-4173-aa29-f7c48af8c5d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Windows\MessageBox\Helper\Party\Wizard">
+      <UniqueIdentifier>{4672d6e4-73d9-4e00-b88c-6f95db1eace1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DistanceField">
+      <UniqueIdentifier>{50d025d1-a120-48d2-a2d4-bcf3ae6379d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DistanceField\DistanceMapGenerator">
+      <UniqueIdentifier>{07723511-62bb-438b-8d5a-fbb5746db0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{f9b18088-c070-4679-93fc-2483243dc316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Video\Vulkan">
+      <UniqueIdentifier>{5697cd8f-f112-4e85-aeca-9d8d0a4d4af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Video\DirectX">
+      <UniqueIdentifier>{996f7062-0a0b-49af-9932-e8161e675400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Video\OpenGL">
+      <UniqueIdentifier>{e9058af9-8624-4c90-b6f9-93073494b770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Structures">
+      <UniqueIdentifier>{e2beb866-bcd4-49af-bbf8-4c6b2c68aee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Video\Metal">
+      <UniqueIdentifier>{6aa13e6b-ae2d-4757-9653-f2caf0ad19c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Helper">
+      <UniqueIdentifier>{48fa37c9-61bd-4ddf-99d0-d23ed4ac8e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Audio\Oboe">
+      <UniqueIdentifier>{64523c18-7686-4e65-a46d-0fc19109b06c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_ai.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_path.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_list.h">
+      <Filter>Containers\List</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_textureatlas.h">
+      <Filter>Containers\TextureAtlas</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_datalist.h">
+      <Filter>Data\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_interfacelist.h">
+      <Filter>Data\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_modellist.h">
+      <Filter>Data\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_soundlist.h">
+      <Filter>Data\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_texturelist.h">
+      <Filter>Data\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_define.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_enum.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_inline.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_variables.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_crywolf1stdirection.h">
+      <Filter>Direction</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_direction.h">
+      <Filter>Direction</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_kanturudirection.h">
+      <Filter>Direction</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DistanceMapGenerator\edtaa3func.h">
+      <Filter>DistanceField\DistanceMapGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_chaoscastle.h">
+      <Filter>Events\Chaos Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_blurs.h">
+      <Filter>Game\Blurs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_bufftimecontrol.h">
+      <Filter>Game\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_buff.h">
+      <Filter>Game\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_buffscriptloader.h">
+      <Filter>Game\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_buffstatesystem.h">
+      <Filter>Game\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_buffstatevaluecontrol.h">
+      <Filter>Game\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_characters.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_effects.h">
+      <Filter>Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_environmentobject.h">
+      <Filter>Game\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_guildsprites.h">
+      <Filter>Game\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_joints.h">
+      <Filter>Game\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_objectbase.h">
+      <Filter>Game\Objects Base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_operates.h">
+      <Filter>Game\Operates</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_leaves.h">
+      <Filter>Game\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_particles.h">
+      <Filter>Game\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_pointers.h">
+      <Filter>Game\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petmanager.h">
+      <Filter>Game\Pets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petsystem.h">
+      <Filter>Game\Pets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_points.h">
+      <Filter>Game\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_renderproxy.h">
+      <Filter>Game\Render Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_renderslot.h">
+      <Filter>Game\Render Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_skillprocessor.h">
+      <Filter>Game\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_sprites.h">
+      <Filter>Game\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_tilesprites.h">
+      <Filter>Game\Tile Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_sha512.h">
+      <Filter>Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_console.h">
+      <Filter>Helpers\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_math_helper.h">
+      <Filter>Helpers\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_misc.h">
+      <Filter>Helpers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_random.h">
+      <Filter>Helpers\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_functions_helper.h">
+      <Filter>Helpers\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_standard_types.h">
+      <Filter>Helpers\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_information.h">
+      <Filter>Information</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_interface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_audiomanager.h">
+      <Filter>Managers\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_audiosource.h">
+      <Filter>Managers\Audio\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_wavdata.h">
+      <Filter>Managers\Audio\WAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_cpuculling.h">
+      <Filter>Managers\Culling</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_inputmanager.h">
+      <Filter>Managers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_fontcache.h">
+      <Filter>Managers\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_text.h">
+      <Filter>Managers\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_fileheader.h">
+      <Filter>Managers\Resource\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_loadingdata.h">
+      <Filter>Managers\Resource\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_loadingmanager.h">
+      <Filter>Managers\Resource\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_model.h">
+      <Filter>Managers\Resource\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_terrain.h">
+      <Filter>Managers\Resource\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_waterterrain.h">
+      <Filter>Managers\Resource\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_dds.h">
+      <Filter>Managers\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_screengrab.h">
+      <Filter>Managers\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_texture.h">
+      <Filter>Managers\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_texturehelpers.h">
+      <Filter>Managers\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_textureindex.h">
+      <Filter>Managers\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_resolutioninfo.h">
+      <Filter>Managers\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_resourcemanager.h">
+      <Filter>Managers\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_videomanager.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_windowmanager.h">
+      <Filter>Managers\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GM_Kanturu_1st.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GM_Kanturu_2nd.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GM_Kanturu_3rd.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GM_PK_Field.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GM_Raklion.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GM3rdChangeUp.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMAida.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMBattleCastle.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMCrywolf1st.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMDoppelGanger1.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMDoppelGanger2.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMDoppelGanger3.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMDoppelGanger4.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMDuelArena.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMEmpireGuardian1.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMEmpireGuardian2.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMEmpireGuardian3.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMEmpireGuardian4.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMHellas.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMHuntingGround.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMNewTown.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMSantaTown.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMSwampOfQuiet.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GMUnitedMarketPlace.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CSChaosCastle.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_mapprocess.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)w_CursedTemple.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_movemanager.h">
+      <Filter>Move</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)gs_networkobject.h">
+      <Filter>Network\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)gs_networkpacket.h">
+      <Filter>Network\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)cs_networkobject.h">
+      <Filter>Network\ConnectServer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)cs_networkpacket.h">
+      <Filter>Network\ConnectServer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_networkmanager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petactioncollecter.h">
+      <Filter>Pets\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petactioncollecteradd.h">
+      <Filter>Pets\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petactioncollecterskeleton.h">
+      <Filter>Pets\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petactiondemon.h">
+      <Filter>Pets\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petactionround.h">
+      <Filter>Pets\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petactionstand.h">
+      <Filter>Pets\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petactionunicorn.h">
+      <Filter>Pets\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petaction.h">
+      <Filter>Pets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petobject.h">
+      <Filter>Pets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_petprocess.h">
+      <Filter>Pets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_physicsmanager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_dialogmanager.h">
+      <Filter>Quest\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_questmanager.h">
+      <Filter>Quest\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_root.h">
+      <Filter>Root</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_scenebase.h">
+      <Filter>Scenes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_characterscene.h">
+      <Filter>Scenes\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_gamescene.h">
+      <Filter>Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_loadingscene.h">
+      <Filter>Scenes\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_loginscene.h">
+      <Filter>Scenes\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_scenes.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_waitingscene.h">
+      <Filter>Scenes\Waiting</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_shaderloader.h">
+      <Filter>Shaders\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_charactermachine.h">
+      <Filter>Structs\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_characterattribute.h">
+      <Filter>Structs\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_classattribute.h">
+      <Filter>Structs\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_duelmanager.h">
+      <Filter>Structs\Duel</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_guild.h">
+      <Filter>Structs\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_gateattribute.h">
+      <Filter>Structs\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_globaltext.h">
+      <Filter>Structs\GlobalText</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CComGem.h">
+      <Filter>Structs\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_changeringmanager.h">
+      <Filter>Structs\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_item.h">
+      <Filter>Structs\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_itemattribute.h">
+      <Filter>Structs\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_itemaddoption.h">
+      <Filter>Structs\ItemAddOption</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_itemcategoriesdb.h">
+      <Filter>Structs\ItemCategoriesDB</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_jewelharmonyinfo.h">
+      <Filter>Structs\JewelHarmonyInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_mixmanager.h">
+      <Filter>Structs\Mix</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_monster.h">
+      <Filter>Structs\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_parts.h">
+      <Filter>Structs\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_party.h">
+      <Filter>Structs\Party</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_setitemoption.h">
+      <Filter>Structs\SetItemOption</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_skillattribute.h">
+      <Filter>Structs\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_skillattribute_inline.h">
+      <Filter>Structs\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_socketsystem.h">
+      <Filter>Structs\SocketSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SummonSystem.h">
+      <Filter>Structs\Summon</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_tasking.h">
+      <Filter>Theading\Tasking</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_threadinfo.h">
+      <Filter>Theading\Tasking</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_fpstimer.h">
+      <Filter>Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_timecheck.h">
+      <Filter>Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_timer.h">
+      <Filter>Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uibase.h">
+      <Filter>UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelpers_general.h">
+      <Filter>UI\Helpers\General</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelpers_genericlayout.h">
+      <Filter>UI\Helpers\Layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelpers_msgbox.h">
+      <Filter>UI\Helpers\MsgBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uioptionroot.h">
+      <Filter>UI\Roots</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uicharacterroot.h">
+      <Filter>UI\Roots</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uigameroot.h">
+      <Filter>UI\Roots</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiloginroot.h">
+      <Filter>UI\Roots</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uimessageroot.h">
+      <Filter>UI\Roots</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uibutton.h">
+      <Filter>UI\Widgets\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uicharacterinfoballoon.h">
+      <Filter>UI\Widgets\CharacterInfoBalloon</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uicontainer.h">
+      <Filter>UI\Widgets\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uioverbutton.h">
+      <Filter>UI\Widgets\OverButton</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uieditbox.h">
+      <Filter>UI\Widgets\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uitogglebutton.h">
+      <Filter>UI\Widgets\ToggleButton</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uispriteuv.h">
+      <Filter>UI\Widgets\SpriteUV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uispritecolor.h">
+      <Filter>UI\Widgets\SpriteColor</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uisprite.h">
+      <Filter>UI\Widgets\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uislidevertical.h">
+      <Filter>UI\Widgets\Slides</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uislidesection.h">
+      <Filter>UI\Widgets\Slides</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uimultilineeditbox.h">
+      <Filter>UI\Widgets\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uisliderbar.h">
+      <Filter>UI\Widgets\SliderBar</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiscrollbar.h">
+      <Filter>UI\Widgets\ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiradiobutton.h">
+      <Filter>UI\Widgets\RadioButton</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiservermessage.h">
+      <Filter>UI\Windows\ServerMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uioptionwindow.h">
+      <Filter>UI\Windows\OptionWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uioptionwindow_defines.h">
+      <Filter>UI\Windows\OptionWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiwaitingbox.h">
+      <Filter>UI\Windows\MessageBox\WaitingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uitradeacceptbox.h">
+      <Filter>UI\Windows\MessageBox\Trade\Accept</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uitrademoneybox.h">
+      <Filter>UI\Windows\MessageBox\Trade\Money</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uitraderequestbox.h">
+      <Filter>UI\Windows\MessageBox\Trade\Request</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uistoragewithdrawbox.h">
+      <Filter>UI\Windows\MessageBox\Storage\Withdraw</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uistoragelockbox.h">
+      <Filter>UI\Windows\MessageBox\Storage\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uistoragedepositbox.h">
+      <Filter>UI\Windows\MessageBox\Storage\Deposit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uipcpointbuybox.h">
+      <Filter>UI\Windows\MessageBox\Shop\PCPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uigamblebuybox.h">
+      <Filter>UI\Windows\MessageBox\Shop\Gamble</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihighvaluewarningbox.h">
+      <Filter>UI\Windows\MessageBox\Shop\HighValue</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihighvaluewarningbox_defines.h">
+      <Filter>UI\Windows\MessageBox\Shop\HighValue</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiserverfull.h">
+      <Filter>UI\Windows\MessageBox\ServerFull</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uipartyrequestbox.h">
+      <Filter>UI\Windows\MessageBox\Party\Request</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiokbox.h">
+      <Filter>UI\Windows\MessageBox\OkBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperstart.h">
+      <Filter>UI\Windows\MessageBox\Helper\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperstart_defines.h">
+      <Filter>UI\Windows\MessageBox\Helper\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperwizardpartysetting_defines.h">
+      <Filter>UI\Windows\MessageBox\Helper\Party\Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperwizardpartysetting.h">
+      <Filter>UI\Windows\MessageBox\Helper\Party\Wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperpartysetting.h">
+      <Filter>UI\Windows\MessageBox\Helper\Party\Elf</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperpartysetting_defines.h">
+      <Filter>UI\Windows\MessageBox\Helper\Party\Elf</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperelfpotionsetting.h">
+      <Filter>UI\Windows\MessageBox\Helper\Potion\Elf</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperelfpotionsetting_defines.h">
+      <Filter>UI\Windows\MessageBox\Helper\Potion\Elf</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperpotionsetting.h">
+      <Filter>UI\Windows\MessageBox\Helper\Potion\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperpotionsetting_defines.h">
+      <Filter>UI\Windows\MessageBox\Helper\Potion\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperskillselect_defines.h">
+      <Filter>UI\Windows\MessageBox\Helper\Skill\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperskillselect.h">
+      <Filter>UI\Windows\MessageBox\Helper\Skill\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperskillsetting.h">
+      <Filter>UI\Windows\MessageBox\Helper\Skill\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperskillsetting_defines.h">
+      <Filter>UI\Windows\MessageBox\Helper\Skill\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperitemadd.h">
+      <Filter>UI\Windows\MessageBox\Helper\Items\Add</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelperitemadd_defines.h">
+      <Filter>UI\Windows\MessageBox\Helper\Items\Add</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiguildrequestbox.h">
+      <Filter>UI\Windows\MessageBox\Guild\Request</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiguildleavebox.h">
+      <Filter>UI\Windows\MessageBox\Guild\Leave</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiguildcancelstatusbox.h">
+      <Filter>UI\Windows\MessageBox\Guild\GuildStatus\Cancel</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiguildgivestatusbox.h">
+      <Filter>UI\Windows\MessageBox\Guild\GuildStatus\Give</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiguildwindow_defines.h">
+      <Filter>UI\Windows\Game\Guild\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiguildwindow.h">
+      <Filter>UI\Windows\Game\Guild\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiguildcreate.h">
+      <Filter>UI\Windows\Game\Guild\Create</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiguildcreate_defines.h">
+      <Filter>UI\Windows\Game\Guild\Create</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uifailedconnect.h">
+      <Filter>UI\Windows\MessageBox\FailedConnect</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uimixcheck_defines.h">
+      <Filter>UI\Windows\MessageBox\ChaosBox\MixCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uimixcheck.h">
+      <Filter>UI\Windows\MessageBox\ChaosBox\MixCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiexitgamebox.h">
+      <Filter>UI\Windows\MessageBox\ExitGame</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uidisconnectedbox.h">
+      <Filter>UI\Windows\MessageBox\DisconnectedBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uideletecharacterwarning.h">
+      <Filter>UI\Windows\MessageBox\DeleteCharacterWarning</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiconnectbox.h">
+      <Filter>UI\Windows\MessageBox\ConnectBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uibloodcastlerank.h">
+      <Filter>UI\Windows\MessageBox\Events\BloodCastle</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uichaosmixmenu.h">
+      <Filter>UI\Windows\MessageBox\ChaosBox\MixMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uichangeserverbox.h">
+      <Filter>UI\Windows\MessageBox\ChangeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiblockedfromserver.h">
+      <Filter>UI\Windows\MessageBox\BlockedFromServer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uibannedfromserver.h">
+      <Filter>UI\Windows\MessageBox\BannedFromServer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiloginmenu.h">
+      <Filter>UI\Windows\Menu\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uigamemenu.h">
+      <Filter>UI\Windows\Menu\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uicharactermenu.h">
+      <Filter>UI\Windows\Menu\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiserverlist.h">
+      <Filter>UI\Windows\Login\ServerList</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uilogo.h">
+      <Filter>UI\Windows\Login\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiloginwindow.h">
+      <Filter>UI\Windows\Login\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiloginframe.h">
+      <Filter>UI\Windows\Login\LoginFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uitradeinventory.h">
+      <Filter>UI\Windows\Game\Trade\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uistorageinventory.h">
+      <Filter>UI\Windows\Game\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiskillframe.h">
+      <Filter>UI\Windows\Game\SkillFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uisimplechat.h">
+      <Filter>UI\Windows\Game\Simple</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uisimplehpbar.h">
+      <Filter>UI\Windows\Game\Simple</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uisimplename.h">
+      <Filter>UI\Windows\Game\Simple</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uisimplenotice.h">
+      <Filter>UI\Windows\Game\Simple</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uishopinventory.h">
+      <Filter>UI\Windows\Game\Shop\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uinpcquestwindow.h">
+      <Filter>UI\Windows\Game\Quest\NpcQuest</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiquestwindow.h">
+      <Filter>UI\Windows\Game\Quest\MyQuest</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uipartywindow.h">
+      <Filter>UI\Windows\Game\Party\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uipartylist.h">
+      <Filter>UI\Windows\Game\Party\List</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uimovewindow.h">
+      <Filter>UI\Windows\Game\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uisocketlistbox.h">
+      <Filter>UI\Windows\Game\Mix\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uimixinventory.h">
+      <Filter>UI\Windows\Game\Mix\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uimapname.h">
+      <Filter>UI\Windows\Game\MapName</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uimainframe.h">
+      <Filter>UI\Windows\Game\MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiitemhotkey.h">
+      <Filter>UI\Windows\Game\ItemHotkey</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uipickeditem.h">
+      <Filter>UI\Windows\Game\Inventory\PickedItem</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uimyinventory.h">
+      <Filter>UI\Windows\Game\Inventory\MyInventory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiitemmanager.h">
+      <Filter>UI\Windows\Game\Inventory\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiinventorycontrol.h">
+      <Filter>UI\Windows\Game\Inventory\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uiheroposition.h">
+      <Filter>UI\Windows\Game\HeroPosition</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelpersetup.h">
+      <Filter>UI\Windows\Game\Helper\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uihelpersetup_defines.h">
+      <Filter>UI\Windows\Game\Helper\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uibloodcastletimer.h">
+      <Filter>UI\Windows\Game\Events\BloodCastle\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uibloodcastleenter.h">
+      <Filter>UI\Windows\Game\Events\BloodCastle\Enter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uicommandwindow.h">
+      <Filter>UI\Windows\Game\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uichatinput.h">
+      <Filter>UI\Windows\Game\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uichatwindow.h">
+      <Filter>UI\Windows\Game\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uicharacterinfo.h">
+      <Filter>UI\Windows\Game\CharacterInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uibuffstatus.h">
+      <Filter>UI\Windows\Game\BuffStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uicreatecharacter.h">
+      <Filter>UI\Windows\Character\CreateCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_uicharacterframe.h">
+      <Filter>UI\Windows\Character\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_ai_inline.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_backend.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_pipeline.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_shader.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_shader_enum.h">
+      <Filter>Managers\Video\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_binding.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_global.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_skeleton.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_common.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_attributes.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_debug.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_texture.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_sampler.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_buffers.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_init.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_enum.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_misc.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_descriptors.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_dynamicbuffer.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_garbagecollector.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_error.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_backend.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_backend.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_attributes.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_attributes.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_shader_list.h">
+      <Filter>Managers\Video\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_shader_structures.h">
+      <Filter>Managers\Video\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Shaders\sh_model.h">
+      <Filter>Shaders\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Shaders\sh_terrain.h">
+      <Filter>Shaders\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Shaders\sh_uidefault.h">
+      <Filter>Shaders\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Shaders\sh_font.h">
+      <Filter>Shaders\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Shaders\sh_bbox.h">
+      <Filter>Shaders\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_loader.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_shader.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_shader.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_debug.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_error.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_enum.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_init.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_extensions.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_pipeline.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_pipeline_structs.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_video_pipeline.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_video_common.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_video_attributes.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_buffers.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_video_backend.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_video_backend_types.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Shaders\sh_effect.h">
+      <Filter>Shaders\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_helpers.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_global.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_video_enum.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_video_buffers.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_texture.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_video_texture.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_helpers.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_texture_formats.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_texture_formats.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_buffer.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_buffer.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_video_model.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_dynamicbuffer.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_initializer.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_video_buffer.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_video_font.h">
+      <Filter>Managers\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_memory.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_opengl_config.h">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_vulkan_config.h">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_config.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_metal_config.h">
+      <Filter>Managers\Video\Metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_renderproxy_effects.h">
+      <Filter>Game\Render Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_buffer.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_init.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_debug.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_loader.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_buffers.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_texture.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_texture_formats.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_shaderinclude.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_dynamicbuffer.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_global.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_pipeline.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_directx_pipeline_structs.h">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)sh_helper.h">
+      <Filter>Shaders\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_text_handler.h">
+      <Filter>Managers\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_hashtypes.h">
+      <Filter>Game\Render Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_music_backend.h">
+      <Filter>Managers\Music</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_audio_backend.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_audio_enum.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_oboe_callback.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)mu_oboe_init.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_ai.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_path.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_textureatlas.cpp">
+      <Filter>Containers\TextureAtlas</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_datalist.cpp">
+      <Filter>Data\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_interfacelist.cpp">
+      <Filter>Data\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_modellist.cpp">
+      <Filter>Data\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_soundlist.cpp">
+      <Filter>Data\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_texturelist.cpp">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_variables.cpp">
+      <Filter>Defines</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_crywolf1stdirection.cpp">
+      <Filter>Direction</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_direction.cpp">
+      <Filter>Direction</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_kanturudirection.cpp">
+      <Filter>Direction</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)DistanceMapGenerator\edtaa3func.cpp">
+      <Filter>DistanceField\DistanceMapGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_event.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_chaoscastle.cpp">
+      <Filter>Events\Chaos Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_blurs.cpp">
+      <Filter>Game\Blurs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_buff.cpp">
+      <Filter>Game\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_buffscriptloader.cpp">
+      <Filter>Game\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_buffstatesystem.cpp">
+      <Filter>Game\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_buffstatevaluecontrol.cpp">
+      <Filter>Game\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_bufftimecontrol.cpp">
+      <Filter>Game\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_characters.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_effects.cpp">
+      <Filter>Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_effectsmagicskill.cpp">
+      <Filter>Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_environmentobject.cpp">
+      <Filter>Game\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_guildsprites.cpp">
+      <Filter>Game\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_joints.cpp">
+      <Filter>Game\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_objectbase.cpp">
+      <Filter>Game\Objects Base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_bugs.cpp">
+      <Filter>Game\Objects Base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_operates.cpp">
+      <Filter>Game\Operates</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_leaves.cpp">
+      <Filter>Game\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_particles.cpp">
+      <Filter>Game\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_pointers.cpp">
+      <Filter>Game\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_petmanager.cpp">
+      <Filter>Game\Pets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_petsystem.cpp">
+      <Filter>Game\Pets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_points.cpp">
+      <Filter>Game\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_renderproxy.cpp">
+      <Filter>Game\Render Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_renderslot.cpp">
+      <Filter>Game\Render Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_skillprocessor.cpp">
+      <Filter>Game\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_sprite.cpp">
+      <Filter>Game\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_tilesprites.cpp">
+      <Filter>Game\Tile Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_sha512.cpp">
+      <Filter>Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_console.cpp">
+      <Filter>Helpers\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_misc.cpp">
+      <Filter>Helpers\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_random.cpp">
+      <Filter>Helpers\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_functions_helper.cpp">
+      <Filter>Helpers\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_information.cpp">
+      <Filter>Information</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_interface.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_audiomanager.cpp">
+      <Filter>Managers\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_audiosource.cpp">
+      <Filter>Managers\Audio\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_wavdata.cpp">
+      <Filter>Managers\Audio\WAV</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_cpuculling.cpp">
+      <Filter>Managers\Culling</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_inputmanager.cpp">
+      <Filter>Managers\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_fontcache.cpp">
+      <Filter>Managers\Resource\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_text.cpp">
+      <Filter>Managers\Resource\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_fileheader.cpp">
+      <Filter>Managers\Resource\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_loadingdata.cpp">
+      <Filter>Managers\Resource\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_loadingmanager.cpp">
+      <Filter>Managers\Resource\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_model.cpp">
+      <Filter>Managers\Resource\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_terrain.cpp">
+      <Filter>Managers\Resource\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_waterterrain.cpp">
+      <Filter>Managers\Resource\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_dds.cpp">
+      <Filter>Managers\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_screengrab.cpp">
+      <Filter>Managers\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_texture.cpp">
+      <Filter>Managers\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_textureindex.cpp">
+      <Filter>Managers\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_resolutioninfo.cpp">
+      <Filter>Managers\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_resourcemanager.cpp">
+      <Filter>Managers\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_videomanager.cpp">
+      <Filter>Managers\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_windowmanager.cpp">
+      <Filter>Managers\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GM_kanturu_1st.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GM_Kanturu_2nd.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GM_Kanturu_3rd.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GM_PK_Field.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GM_Raklion.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GM3rdChangeUp.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMAida.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMBattleCastle.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMCrywolf1st.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMDoppelGanger1.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMDoppelGanger2.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMDoppelGanger3.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMDoppelGanger4.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMDuelArena.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMEmpireGuardian1.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMEmpireGuardian2.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMEmpireGuardian3.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMEmpireGuardian4.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMHellas.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMHuntingGround.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMNewTown.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMSantaTown.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMSwampOfQuiet.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GMUnitedMarketPlace.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CSChaosCastle.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_mapprocess.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)w_CursedTemple.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_movemanager.cpp">
+      <Filter>Move</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)gs_chatprotocol.cpp">
+      <Filter>Network\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)gs_networkobject.cpp">
+      <Filter>Network\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)gs_networkpacket.cpp">
+      <Filter>Network\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)gs_protocol.cpp">
+      <Filter>Network\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)gs_protocol_event.cpp">
+      <Filter>Network\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)gs_receive.cpp">
+      <Filter>Network\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)gs_receive_helper.cpp">
+      <Filter>Network\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)cs_networkobject.cpp">
+      <Filter>Network\ConnectServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)cs_networkpacket.cpp">
+      <Filter>Network\ConnectServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_networkmanager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_petactioncollecter.cpp">
+      <Filter>Pets\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_petactioncollecteradd.cpp">
+      <Filter>Pets\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_petactioncollecterskeleton.cpp">
+      <Filter>Pets\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_petactiondemon.cpp">
+      <Filter>Pets\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_petactionround.cpp">
+      <Filter>Pets\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_petactionstand.cpp">
+      <Filter>Pets\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_petactionunicorn.cpp">
+      <Filter>Pets\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_petobject.cpp">
+      <Filter>Pets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_petprocess.cpp">
+      <Filter>Pets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_physicsmanager.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_dialogmanager.cpp">
+      <Filter>Quest\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_questmanager.cpp">
+      <Filter>Quest\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_root.cpp">
+      <Filter>Root</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_characterscene.cpp">
+      <Filter>Scenes\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_gamescene.cpp">
+      <Filter>Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_loadingscene.cpp">
+      <Filter>Scenes\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_loginscene.cpp">
+      <Filter>Scenes\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_scenes.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_waitingscene.cpp">
+      <Filter>Scenes\Waiting</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_charactermachine.cpp">
+      <Filter>Structs\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_duelmanager.cpp">
+      <Filter>Structs\Duel</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_guild.cpp">
+      <Filter>Structs\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_gateattribute.cpp">
+      <Filter>Structs\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_globaltext.cpp">
+      <Filter>Structs\GlobalText</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CComGem.cpp">
+      <Filter>Structs\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_changeringmanager.cpp">
+      <Filter>Structs\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_item.cpp">
+      <Filter>Structs\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_itemattribute.cpp">
+      <Filter>Structs\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_itemaddoption.cpp">
+      <Filter>Structs\ItemAddOption</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_itemcategoriesdb.cpp">
+      <Filter>Structs\ItemCategoriesDB</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_jewelharmonyinfo.cpp">
+      <Filter>Structs\JewelHarmonyInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_mixmanager.cpp">
+      <Filter>Structs\Mix</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_mixmanager_inventory.cpp">
+      <Filter>Structs\Mix</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_mixmanager_item.cpp">
+      <Filter>Structs\Mix</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_mixmanager_recipe.cpp">
+      <Filter>Structs\Mix</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_monster.cpp">
+      <Filter>Structs\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_parts.cpp">
+      <Filter>Structs\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_party.cpp">
+      <Filter>Structs\Party</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_setitemoption.cpp">
+      <Filter>Structs\SetItemOption</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_skillattribute.cpp">
+      <Filter>Structs\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_socketsystem.cpp">
+      <Filter>Structs\SocketSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SummonSystem.cpp">
+      <Filter>Structs\Summon</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_tasking.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingblurs.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingboids.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingbugs.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingcharacters.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingcleaning.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingeffects.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingguildsprites.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskinginterface.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingitems.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingjoints.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingleaves.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingmodels.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingobjects.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingparticles.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingpets.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingpointers.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingpoints.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingsounds.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingsprites.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingterrain.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingtextures.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingtilesprites.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_threadinfo.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_fpstimer.cpp">
+      <Filter>Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_timecheck.cpp">
+      <Filter>Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_timer.cpp">
+      <Filter>Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uibase.cpp">
+      <Filter>UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uicharacterroot.cpp">
+      <Filter>UI\Roots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uigameroot.cpp">
+      <Filter>UI\Roots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiloginroot.cpp">
+      <Filter>UI\Roots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uimessageroot.cpp">
+      <Filter>UI\Roots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uioptionroot.cpp">
+      <Filter>UI\Roots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uibutton.cpp">
+      <Filter>UI\Widgets\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uicharacterinfoballoon.cpp">
+      <Filter>UI\Widgets\CharacterInfoBalloon</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uioverbutton.cpp">
+      <Filter>UI\Widgets\OverButton</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uieditbox.cpp">
+      <Filter>UI\Widgets\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uitogglebutton.cpp">
+      <Filter>UI\Widgets\ToggleButton</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uispriteuv.cpp">
+      <Filter>UI\Widgets\SpriteUV</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uispritecolor.cpp">
+      <Filter>UI\Widgets\SpriteColor</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uisprite.cpp">
+      <Filter>UI\Widgets\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uislidesection.cpp">
+      <Filter>UI\Widgets\Slides</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uislidevertical.cpp">
+      <Filter>UI\Widgets\Slides</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uimultilineeditbox.cpp">
+      <Filter>UI\Widgets\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uisliderbar.cpp">
+      <Filter>UI\Widgets\SliderBar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiscrollbar.cpp">
+      <Filter>UI\Widgets\ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiradiobutton.cpp">
+      <Filter>UI\Widgets\RadioButton</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiservermessage.cpp">
+      <Filter>UI\Windows\ServerMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uioptionwindow.cpp">
+      <Filter>UI\Windows\OptionWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiwaitingbox.cpp">
+      <Filter>UI\Windows\MessageBox\WaitingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uitradeacceptbox.cpp">
+      <Filter>UI\Windows\MessageBox\Trade\Accept</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uitrademoneybox.cpp">
+      <Filter>UI\Windows\MessageBox\Trade\Money</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uitraderequestbox.cpp">
+      <Filter>UI\Windows\MessageBox\Trade\Request</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uistoragewithdrawbox.cpp">
+      <Filter>UI\Windows\MessageBox\Storage\Withdraw</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uistoragelockbox.cpp">
+      <Filter>UI\Windows\MessageBox\Storage\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uistoragedepositbox.cpp">
+      <Filter>UI\Windows\MessageBox\Storage\Deposit</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uipcpointbuybox.cpp">
+      <Filter>UI\Windows\MessageBox\Shop\PCPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uigamblebuybox.cpp">
+      <Filter>UI\Windows\MessageBox\Shop\Gamble</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uihighvaluewarningbox.cpp">
+      <Filter>UI\Windows\MessageBox\Shop\HighValue</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiserverfull.cpp">
+      <Filter>UI\Windows\MessageBox\ServerFull</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uipartyrequestbox.cpp">
+      <Filter>UI\Windows\MessageBox\Party\Request</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiokbox.cpp">
+      <Filter>UI\Windows\MessageBox\OkBox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uihelperstart.cpp">
+      <Filter>UI\Windows\MessageBox\Helper\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uihelperwizardpartysetting.cpp">
+      <Filter>UI\Windows\MessageBox\Helper\Party\Wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uihelperpartysetting.cpp">
+      <Filter>UI\Windows\MessageBox\Helper\Party\Elf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uihelperelfpotionsetting.cpp">
+      <Filter>UI\Windows\MessageBox\Helper\Potion\Elf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uihelperpotionsetting.cpp">
+      <Filter>UI\Windows\MessageBox\Helper\Potion\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uihelperskillselect.cpp">
+      <Filter>UI\Windows\MessageBox\Helper\Skill\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uihelperskillsetting.cpp">
+      <Filter>UI\Windows\MessageBox\Helper\Skill\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uihelperitemadd.cpp">
+      <Filter>UI\Windows\MessageBox\Helper\Items\Add</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiguildrequestbox.cpp">
+      <Filter>UI\Windows\MessageBox\Guild\Request</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiguildcancelstatusbox.cpp">
+      <Filter>UI\Windows\MessageBox\Guild\GuildStatus\Cancel</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiguildgivestatusbox.cpp">
+      <Filter>UI\Windows\MessageBox\Guild\GuildStatus\Give</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiguildwindow.cpp">
+      <Filter>UI\Windows\Game\Guild\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiguildcreate.cpp">
+      <Filter>UI\Windows\Game\Guild\Create</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uifailedconnect.cpp">
+      <Filter>UI\Windows\MessageBox\FailedConnect</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uimixcheck.cpp">
+      <Filter>UI\Windows\MessageBox\ChaosBox\MixCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiexitgamebox.cpp">
+      <Filter>UI\Windows\MessageBox\ExitGame</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uidisconnectedbox.cpp">
+      <Filter>UI\Windows\MessageBox\DisconnectedBox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uideletecharacterwarning.cpp">
+      <Filter>UI\Windows\MessageBox\DeleteCharacterWarning</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiconnectbox.cpp">
+      <Filter>UI\Windows\MessageBox\ConnectBox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uibloodcastlerank.cpp">
+      <Filter>UI\Windows\MessageBox\Events\BloodCastle</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uichaosmixmenu.cpp">
+      <Filter>UI\Windows\MessageBox\ChaosBox\MixMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uichangeserverbox.cpp">
+      <Filter>UI\Windows\MessageBox\ChangeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiblockedfromserver.cpp">
+      <Filter>UI\Windows\MessageBox\BlockedFromServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uibannedfromserver.cpp">
+      <Filter>UI\Windows\MessageBox\BannedFromServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiloginmenu.cpp">
+      <Filter>UI\Windows\Menu\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uigamemenu.cpp">
+      <Filter>UI\Windows\Menu\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uicharactermenu.cpp">
+      <Filter>UI\Windows\Menu\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiserverlist.cpp">
+      <Filter>UI\Windows\Login\ServerList</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uilogo.cpp">
+      <Filter>UI\Windows\Login\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiloginwindow.cpp">
+      <Filter>UI\Windows\Login\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiloginframe.cpp">
+      <Filter>UI\Windows\Login\LoginFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uitradeinventory.cpp">
+      <Filter>UI\Windows\Game\Trade\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uistorageinventory.cpp">
+      <Filter>UI\Windows\Game\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiskillframe.cpp">
+      <Filter>UI\Windows\Game\SkillFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uisimplechat.cpp">
+      <Filter>UI\Windows\Game\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uisimplehpbar.cpp">
+      <Filter>UI\Windows\Game\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uisimplename.cpp">
+      <Filter>UI\Windows\Game\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uisimplenotice.cpp">
+      <Filter>UI\Windows\Game\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uishopinventory.cpp">
+      <Filter>UI\Windows\Game\Shop\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uinpcquestwindow.cpp">
+      <Filter>UI\Windows\Game\Quest\NpcQuest</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiquestwindow.cpp">
+      <Filter>UI\Windows\Game\Quest\MyQuest</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uipartywindow.cpp">
+      <Filter>UI\Windows\Game\Party\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uipartylist.cpp">
+      <Filter>UI\Windows\Game\Party\List</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uimovewindow.cpp">
+      <Filter>UI\Windows\Game\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uimixinventory.cpp">
+      <Filter>UI\Windows\Game\Mix\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uimapname.cpp">
+      <Filter>UI\Windows\Game\MapName</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uimainframe.cpp">
+      <Filter>UI\Windows\Game\MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiitemhotkey.cpp">
+      <Filter>UI\Windows\Game\ItemHotkey</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uipickeditem.cpp">
+      <Filter>UI\Windows\Game\Inventory\PickedItem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uimyinventory.cpp">
+      <Filter>UI\Windows\Game\Inventory\MyInventory</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiitemmanager.cpp">
+      <Filter>UI\Windows\Game\Inventory\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiinventorycontrol.cpp">
+      <Filter>UI\Windows\Game\Inventory\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiheroposition.cpp">
+      <Filter>UI\Windows\Game\HeroPosition</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uihelpersetup.cpp">
+      <Filter>UI\Windows\Game\Helper\Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uibloodcastletimer.cpp">
+      <Filter>UI\Windows\Game\Events\BloodCastle\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uibloodcastleenter.cpp">
+      <Filter>UI\Windows\Game\Events\BloodCastle\Enter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uicommandwindow.cpp">
+      <Filter>UI\Windows\Game\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uichatinput.cpp">
+      <Filter>UI\Windows\Game\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uichatwindow.cpp">
+      <Filter>UI\Windows\Game\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uicharacterinfo.cpp">
+      <Filter>UI\Windows\Game\CharacterInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uibuffstatus.cpp">
+      <Filter>UI\Windows\Game\BuffStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uicreatecharacter.cpp">
+      <Filter>UI\Windows\Character\CreateCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uicharacterframe.cpp">
+      <Filter>UI\Windows\Character\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_uiguildleavebox.cpp">
+      <Filter>UI\Windows\MessageBox\Guild\Leave</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_standard_types.cpp">
+      <Filter>Helpers\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_pipeline.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_shader.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_binding.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_global.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_skeleton.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_common.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_attributes.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_debug.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_sampler.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_buffers.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_init.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_descriptors.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_garbagecollector.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_shader_list.cpp">
+      <Filter>Managers\Video\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_loader.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_opengl_attributes.cpp">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_directx_attributes.cpp">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_opengl_shader.cpp">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_opengl_init.cpp">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_opengl_extensions.cpp">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_opengl_pipeline.cpp">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_opengl_pipeline_structs.cpp">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_video_common.cpp">
+      <Filter>Managers\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_video_enum.cpp">
+      <Filter>Managers\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_taskingdebug.cpp">
+      <Filter>Theading\Tasking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_video_backend.cpp">
+      <Filter>Managers\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_opengl_buffers.cpp">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_opengl_global.cpp">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_video_texture.cpp">
+      <Filter>Managers\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_texture.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_opengl_texture.cpp">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_buffer.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_opengl_buffer.cpp">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_video_pipeline.cpp">
+      <Filter>Managers\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_opengl_debug.cpp">
+      <Filter>Managers\Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_vulkan_memory.cpp">
+      <Filter>Managers\Video\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_renderproxy_effects.cpp">
+      <Filter>Game\Render Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_directx_buffer.cpp">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_directx_init.cpp">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_directx_debug.cpp">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_directx_loader.cpp">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_directx_buffers.cpp">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_directx_texture.cpp">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_directx_shader.cpp">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_directx_global.cpp">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_directx_pipeline.cpp">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_directx_pipeline_structs.cpp">
+      <Filter>Managers\Video\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_text_handler.cpp">
+      <Filter>Managers\Resource\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_music_backend.cpp">
+      <Filter>Managers\Music</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_oboe_callback.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)mu_oboe_init.cpp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+#ifndef __MU_VULKAN_CONFIG_H__
+#define __MU_VULKAN_CONFIG_H__
+
+#pragma once
+
+#define VULKAN_BACKEND_ENABLE (1)
+#define VULKAN_REVERSED_DEPTH (1)
+#define VULKAN_INFINITE_PERSPECTIVE (0)
+#if VULKAN_REVERSED_DEPTH == 1
+#define VULKAN_DEPTH_CLEAR (0.0f)
+#else
+#define VULKAN_DEPTH_CLEAR (1.0f)
+#endif
+#define VULKAN_STENCIL_CLEAR (0)
+
+#endif

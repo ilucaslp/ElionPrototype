@@ -1,0 +1,60 @@
+#ifndef __GSTODS_PROTOCOL_H__
+#define __GSTODS_PROTOCOL_H__
+
+#pragma once
+
+#include <shared_protocol.h>
+#include <shared_define.h>
+#include "cltogs_helper_structs.h"
+
+// GameServer<->DataServer
+enum GS2DS_PROTOCOL : mu_uint16
+{
+	GS2DS_PROT_RECEIVED, // Report the packet was received (this is used for prevent packet loss when the service get discconnected)
+	GS2DS_PROT_REGISTER, // Register GameServer
+
+	// JS Packets
+	GS2JS_PROT_USERLOGIN,
+	GS2JS_PROT_USERDISCONNECT,
+	GS2JS_PROT_USERHELPER,
+
+	// DS Packets
+	GS2DS_PROT_CHARACTERLIST,
+	GS2DS_PROT_CREATECHARACTER,
+	GS2DS_PROT_DELETECHARACTER,
+	GS2DS_PROT_CHARACTER,
+
+	GS2DS_PROT_UPDATEITEM,
+	GS2DS_PROT_DELETEITEM,
+
+	GS2DS_PROT_SAVECHARACTER,
+
+	GS2DS_PROT_UPDATEMAGIC,
+	GS2DS_PROT_DELETEMAGIC,
+
+	GS2DS_PROT_HELPER,
+	GS2DS_PROT_HOTKEYS,
+
+	// EXDB Packets
+	GS2EX_PROT_CREATEGUILD,
+	GS2EX_PROT_DESTROYGUILD,
+	GS2EX_PROT_ADDMEMBER,
+	GS2EX_PROT_DELETEMEMBER,
+	GS2EX_PROT_GUILDINFO,
+	GS2EX_PROT_GUILDMEMBERINFO,
+
+	GS2EX_PROT_MEMBERCONNECTED,
+	GS2EX_PROT_MEMBERDISCONNECTED,
+	GS2EX_PROT_MEMBERCONNECTED_BATCH,
+	GS2EX_PROT_MEMBERDISCONNECTED_BATCH,
+
+	GS2EX_PROT_MEMBERSTATUS_CHANGE,
+
+	GS2DS_PROT_HEARTBEAT = 0xFFFF,
+};
+
+#include "gstods_jsprotocol.h"
+#include "gstods_dsprotocol.h"
+#include "gstods_exprotocol.h"
+
+#endif

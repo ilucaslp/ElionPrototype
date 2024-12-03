@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugOptimized|Win32">
+      <Configuration>DebugOptimized</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugOptimized|x64">
+      <Configuration>DebugOptimized</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="InternalDebug|Win32">
+      <Configuration>InternalDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="InternalDebug|x64">
+      <Configuration>InternalDebug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="InternalRelease|Win32">
+      <Configuration>InternalRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="InternalRelease|x64">
+      <Configuration>InternalRelease</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05154A89-A442-4BF0-9609-1EF2B52C6AF4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Elion</RootNamespace>
+    <ProjectName>Elion</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='InternalDebug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugOptimized|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='InternalRelease|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='InternalDebug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugOptimized|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='InternalRelease|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="..\ElionBase\ElionBase.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='InternalDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugOptimized|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='InternalRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='InternalDebug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugOptimized|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='InternalRelease|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include</IncludePath>
+    <TargetName>$(ProjectName)_32Bits</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='InternalDebug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include</IncludePath>
+    <TargetName>$(ProjectName)_32Bits</TargetName>
+    <IntDir>$(ProjectDir)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugOptimized|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSdk_71A_IncludePath);$(DXSDK_DIR)\Include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSdk_71A_LibraryPath_x86);$(DXSDK_DIR)\Lib\x86</LibraryPath>
+    <TargetName>$(ProjectName)_32Bits</TargetName>
+    <IntDir>$(ProjectDir)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include</IncludePath>
+    <TargetName>$(ProjectName)_64Bits</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='InternalDebug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include</IncludePath>
+    <TargetName>$(ProjectName)_64Bits_Internal</TargetName>
+    <IntDir>$(ProjectDir)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugOptimized|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSdk_71A_IncludePath);$(DXSDK_DIR)\Include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSdk_71A_LibraryPath_x64);$(DXSDK_DIR)\Lib\x64</LibraryPath>
+    <TargetName>$(ProjectName)_64Bits</TargetName>
+    <IntDir>$(ProjectDir)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include</IncludePath>
+    <TargetName>$(ProjectName)_32Bits</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='InternalRelease|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include</IncludePath>
+    <TargetName>$(ProjectName)_32Bits</TargetName>
+    <IntDir>$(ProjectDir)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include</IncludePath>
+    <TargetName>$(ProjectName)_64Bits</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='InternalRelease|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)\Include</IncludePath>
+    <TargetName>$(ProjectName)_64Bits_Internal</TargetName>
+    <IntDir>$(ProjectDir)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;_WIN32_WINNT=0x0601;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;..\Libraries\VulkanMemoryAllocator\src;..\Libraries\SDL2\include;..\Libraries\SDL2_image\;.\;..\ElionBase;..\CPUInfo\include;..\ElionLibraries\Shared;..\ElionLibraries\ElionNetwork;..\Libraries\ElionMath;..\Libraries\libogg\include;..\Libraries\libvorbis\include;..\Libraries\portaudio\include;..\Libraries\glm;..\Libraries\gli;..\Libraries\CRC32;..\Libraries\CryptBlowfish;..\Libraries\DirectXTex;..\Libraries\DirectXTK;..\Libraries\freetype\include;..\Libraries\harfbuzz\src;..\Libraries\RapidJSON;..\CommonLib;..\Shared;..\Libraries\zlib;..\Libraries\TBB\include;..\Libraries\Boost;..\Libraries\CrashRpt\include;..\Libraries\glew\include;..\Libraries\KTX-Software\include;..\Libraries\KTX-Software\other_include;..\Libraries\MaliGLES\include;..\Libraries\zlib\build</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link />
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib32;..\Libraries\glew\lib\$(Configuration)\$(PlatformName)\;..\Libraries\SDL2\lib\$(Platform)\$(Configuration)\;..\Libraries\SDL2_image\VisualC\$(Platform)\$(Configuration)\;..\Libraries\KTX-Software\build\msvs\win\vs2015\$(PlatformName)\$(Configuration)\lib;..\Libraries\MaliGLES;..\ElionLibraries\lib;..\Libraries\ElionMath\Lib;..\Libraries\Boost\stage-x86\lib;..\Libraries\libogg\win32;..\Libraries\libvorbis\win32;..\Libraries\portaudio\lib;..\Libraries\zlib\lib;..\Libraries\freetype\lib;..\Libraries\harfbuzz\lib;..\CommonLib;..\Libraries\CRC32\Lib;..\Libraries\CryptBlowfish\Lib;..\Libraries\CrashRpt\lib;..\Libraries\TBB\lib\ia32\vc14;$(SolutionDir)$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='InternalDebug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;INTERNAL_SERVER;_WIN32_WINNT=0x0601;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;..\Libraries\VulkanMemoryAllocator\src;..\Libraries\SDL2\include;..\Libraries\SDL2_image\;.\;..\ElionBase;..\CPUInfo\include;..\ElionLibraries\Shared;..\ElionLibraries\ElionNetwork;..\Libraries\ElionMath;..\Libraries\libogg\include;..\Libraries\libvorbis\include;..\Libraries\portaudio\include;..\Libraries\glm;..\Libraries\gli;..\Libraries\CRC32;..\Libraries\CryptBlowfish;..\Libraries\DirectXTex;..\Libraries\DirectXTK;..\Libraries\freetype\include;..\Libraries\harfbuzz\src;..\Libraries\RapidJSON;..\CommonLib;..\Shared;..\Libraries\zlib;..\Libraries\TBB\include;..\Libraries\Boost;..\Libraries\CrashRpt\include;..\Libraries\glew\include;..\Libraries\KTX-Software\include;..\Libraries\KTX-Software\other_include;..\Libraries\MaliGLES\include;..\Libraries\zlib\build</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link />
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib32;..\Libraries\glew\lib\$(Configuration)\$(PlatformName)\;..\Libraries\KTX-Software\build\msvs\win\vs2015\$(PlatformName)\$(Configuration)\lib;..\Libraries\MaliGLES;..\ElionLibraries\lib;..\Libraries\ElionMath\Lib;..\Libraries\Boost\stage-x86\lib;..\Libraries\libogg\win32;..\Libraries\libvorbis\win32;..\Libraries\portaudio\lib;..\Libraries\zlib\lib;..\Libraries\freetype\lib;..\Libraries\harfbuzz\lib;..\CommonLib;..\Libraries\CRC32\Lib;..\Libraries\CryptBlowfish\Lib;..\Libraries\CrashRpt\lib;$(SolutionDir)$(Configuration)\;..\Libraries\SDL2\lib\Win32\Debug;..\Libraries\TBB\lib\ia32\vc14;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugOptimized|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;_WIN32_WINNT=0x0601;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;..\Libraries\VulkanMemoryAllocator\src;..\Libraries\SDL2\include;..\Libraries\SDL2_image\;.\;..\ElionBase;..\CPUInfo\include;..\ElionLibraries\Shared;..\ElionLibraries\ElionNetwork;..\Libraries\ElionMath;..\Libraries\libogg\include;..\Libraries\libvorbis\include;..\Libraries\portaudio\include;..\Libraries\glm;..\Libraries\gli;..\Libraries\CRC32;..\Libraries\CryptBlowfish;..\Libraries\DirectXTex;..\Libraries\DirectXTK;..\Libraries\freetype\include;..\Libraries\harfbuzz\src;..\Libraries\RapidJSON;..\CommonLib;..\Shared;..\Libraries\zlib;..\Libraries\TBB\include;..\Libraries\Boost;..\Libraries\CrashRpt\include;..\Libraries\glew\include;..\Libraries\KTX-Software\include;..\Libraries\KTX-Software\other_include;..\Libraries\MaliGLES\include;..\Libraries\zlib\build</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link />
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib32;..\Libraries\glew\lib\$(Configuration)\$(PlatformName)\;..\Libraries\KTX-Software\build\msvs\win\vs2015\$(PlatformName)\$(Configuration)\lib;..\Libraries\MaliGLES;..\ElionLibraries\lib;..\Libraries\ElionMath\Lib;..\Libraries\Boost\stage-x86\lib;..\Libraries\libogg\win32;..\Libraries\libvorbis\win32;..\Libraries\portaudio\lib;..\Libraries\zlib\lib;..\Libraries\freetype\lib;..\Libraries\harfbuzz\lib;..\CommonLib;..\Libraries\CRC32\Lib;..\Libraries\CryptBlowfish\Lib;..\Libraries\CrashRpt\lib;$(SolutionDir)$(Configuration)\;..\Libraries\SDL2\lib\Win32\Debug;..\Libraries\TBB\lib\ia32\vc14;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;USE_SDL2;_WIN32_WINNT=0x0601;WIN64;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;..\Libraries\VulkanMemoryAllocator\src;..\Libraries\SDL2\include;..\Libraries\SDL2_image\;.\;..\ElionBase;..\CPUInfo\include;..\ElionLibraries\Shared;..\ElionLibraries\ElionNetwork;..\Libraries\ElionMath;..\Libraries\libogg\include;..\Libraries\libvorbis\include;..\Libraries\portaudio\include;..\Libraries\glm;..\Libraries\gli;..\Libraries\CRC32;..\Libraries\CryptBlowfish;..\Libraries\DirectXTex;..\Libraries\DirectXTK;..\Libraries\freetype\include;..\Libraries\harfbuzz\src;..\Libraries\RapidJSON;..\CommonLib;..\Shared;..\Libraries\zlib;..\Libraries\TBB\include;..\Libraries\Boost;..\Libraries\CrashRpt\include;..\Libraries\glew\include;..\Libraries\KTX-Software\include;..\Libraries\KTX-Software\other_include;..\Libraries\MaliGLES\include;..\Libraries\zlib\build64;</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link />
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib;..\Libraries\glew\lib\$(Configuration)\$(PlatformName)\;..\Libraries\SDL2\lib\$(Platform)\$(Configuration)\;..\Libraries\SDL2_image\VisualC\$(Platform)\$(Configuration)\;..\Libraries\KTX-Software\build\msvs\win\vs2015\$(PlatformName)\$(Configuration)\lib;..\Libraries\MaliGLES;..\ElionLibraries\lib;..\Libraries\ElionMath\Lib;..\Libraries\Boost\stage-x64\lib;..\Libraries\libogg\win32;..\Libraries\libvorbis\win32;..\Libraries\portaudio\lib;..\Libraries\zlib\lib;..\Libraries\freetype\lib;..\Libraries\harfbuzz\lib;..\CommonLib;..\Libraries\CRC32\Lib;..\Libraries\CryptBlowfish\Lib;..\Libraries\CrashRpt\lib;..\Libraries\TBB\lib\intel64\vc14;$(SolutionDir)$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='InternalDebug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;USE_SDL2;INTERNAL_SERVER;_WIN32_WINNT=0x0601;WIN64;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;..\Libraries\VulkanMemoryAllocator\src;..\Libraries\SDL2\include;..\Libraries\SDL2_image\;.\;..\ElionBase;..\CPUInfo\include;..\ElionLibraries\Shared;..\ElionLibraries\ElionNetwork;..\Libraries\ElionMath;..\Libraries\libogg\include;..\Libraries\libvorbis\include;..\Libraries\portaudio\include;..\Libraries\glm;..\Libraries\gli;..\Libraries\CRC32;..\Libraries\CryptBlowfish;..\Libraries\DirectXTex;..\Libraries\DirectXTK;..\Libraries\freetype\include;..\Libraries\harfbuzz\src;..\Libraries\RapidJSON;..\CommonLib;..\Shared;..\Libraries\zlib;..\Libraries\TBB\include;..\Libraries\Boost;..\Libraries\CrashRpt\include;..\Libraries\glew\include;..\Libraries\KTX-Software\include;..\Libraries\KTX-Software\other_include;..\Libraries\MaliGLES\include;..\Libraries\zlib\build64;C:\Program Files (x86)\Visual Leak Detector\include</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link />
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib;..\Libraries\glew\lib\$(Configuration)\$(PlatformName)\;..\Libraries\KTX-Software\build\msvs\win\vs2015\$(PlatformName)\$(Configuration)\lib;..\Libraries\MaliGLES;..\ElionLibraries\lib;..\Libraries\ElionMath\Lib;..\Libraries\Boost\stage-x64\lib;..\Libraries\libogg\win32;..\Libraries\libvorbis\win32;..\Libraries\portaudio\lib;..\Libraries\zlib\lib;..\Libraries\freetype\lib;..\Libraries\harfbuzz\lib;..\CommonLib;..\Libraries\CRC32\Lib;..\Libraries\CryptBlowfish\Lib;..\Libraries\CrashRpt\lib;$(SolutionDir)$(Platform)\$(Configuration)\;..\Libraries\SDL2\lib\x64\Debug;..\Libraries\TBB\lib\intel64\vc14;C:\Program Files (x86)\Visual Leak Detector\lib\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugOptimized|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;_WIN32_WINNT=0x0602;WIN64;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;..\Libraries\VulkanMemoryAllocator\src;..\Libraries\SDL2\include;..\Libraries\SDL2_image\;.\;..\ElionBase;..\CPUInfo\include;..\ElionLibraries\Shared;..\ElionLibraries\ElionNetwork;..\Libraries\ElionMath;..\Libraries\libogg\include;..\Libraries\libvorbis\include;..\Libraries\portaudio\include;..\Libraries\glm;..\Libraries\gli;..\Libraries\CRC32;..\Libraries\CryptBlowfish;..\Libraries\DirectXTex;..\Libraries\DirectXTK;..\Libraries\freetype\include;..\Libraries\harfbuzz\src;..\Libraries\RapidJSON;..\CommonLib;..\Shared;..\Libraries\zlib;..\Libraries\TBB\include;..\Libraries\Boost;..\Libraries\CrashRpt\include;..\Libraries\glew\include;..\Libraries\KTX-Software\include;..\Libraries\KTX-Software\other_include;..\Libraries\MaliGLES\include;..\Libraries\zlib\build64;</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link />
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib;..\Libraries\glew\lib\$(Configuration)\$(PlatformName)\;..\Libraries\KTX-Software\build\msvs\win\vs2015\$(PlatformName)\$(Configuration)\lib;..\Libraries\MaliGLES;..\ElionLibraries\lib;..\Libraries\ElionMath\Lib;..\Libraries\Boost\stage-x64\lib;..\Libraries\libogg\win32;..\Libraries\libvorbis\win32;..\Libraries\portaudio\lib;..\Libraries\zlib\lib;..\Libraries\freetype\lib;..\Libraries\harfbuzz\lib;..\CommonLib;..\Libraries\CRC32\Lib;..\Libraries\CryptBlowfish\Lib;..\Libraries\CrashRpt\lib;$(SolutionDir)$(Platform)\$(Configuration)\;..\Libraries\SDL2\lib\x64\Debug;..\Libraries\TBB\lib\intel64\vc14;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;LIVE_PRODUCTION;_WIN32_WINNT=0x0601;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;..\Libraries\VulkanMemoryAllocator\src;..\Libraries\SDL2\include;..\Libraries\SDL2_image\;.\;..\ElionBase;..\CPUInfo\include;..\ElionLibraries\Shared;..\ElionLibraries\ElionNetwork;..\Libraries\ElionMath;..\Libraries\libogg\include;..\Libraries\libvorbis\include;..\Libraries\portaudio\include;..\Libraries\glm;..\Libraries\gli;..\Libraries\CRC32;..\Libraries\CryptBlowfish;..\Libraries\DirectXTex;..\Libraries\DirectXTK;..\Libraries\freetype\include;..\Libraries\harfbuzz\src;..\Libraries\RapidJSON;..\CommonLib;..\Shared;..\Libraries\zlib;..\Libraries\TBB\include;..\Libraries\Boost;..\Libraries\CrashRpt\include;..\Libraries\glew\include;..\Libraries\KTX-Software\include;..\Libraries\KTX-Software\other_include;..\Libraries\MaliGLES\include;..\Libraries\zlib\build</AdditionalIncludeDirectories>
+      <Optimization>MaxSpeed</Optimization>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib32;..\Libraries\glew\lib\$(Configuration)\$(PlatformName)\;..\Libraries\SDL2\lib\$(Platform)\$(Configuration)\;..\Libraries\SDL2_image\VisualC\$(Platform)\$(Configuration)\;..\Libraries\KTX-Software\build\msvs\win\vs2015\$(PlatformName)\$(Configuration)\lib;..\Libraries\MaliGLES;..\ElionLibraries\lib;..\Libraries\ElionMath\Lib;..\Libraries\Boost\stage-x86\lib;..\Libraries\libogg\win32;..\Libraries\libvorbis\win32;..\Libraries\portaudio\lib;..\Libraries\zlib\lib;..\Libraries\freetype\lib;..\Libraries\harfbuzz\lib;..\CommonLib;..\Libraries\CRC32\Lib;..\Libraries\CryptBlowfish\Lib;..\Libraries\CrashRpt\lib;..\Libraries\TBB\lib\ia32\vc14;$(SolutionDir)$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='InternalRelease|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;INTERNAL_SERVER;_WIN32_WINNT=0x0601;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;..\Libraries\VulkanMemoryAllocator\src;..\Libraries\SDL2\include;..\Libraries\SDL2_image\;.\;..\ElionBase;..\CPUInfo\include;..\ElionLibraries\Shared;..\ElionLibraries\ElionNetwork;..\Libraries\ElionMath;..\Libraries\libogg\include;..\Libraries\libvorbis\include;..\Libraries\portaudio\include;..\Libraries\glm;..\Libraries\gli;..\Libraries\CRC32;..\Libraries\CryptBlowfish;..\Libraries\DirectXTex;..\Libraries\DirectXTK;..\Libraries\freetype\include;..\Libraries\harfbuzz\src;..\Libraries\RapidJSON;..\CommonLib;..\Shared;..\Libraries\zlib;..\Libraries\TBB\include;..\Libraries\Boost;..\Libraries\CrashRpt\include;..\Libraries\glew\include;..\Libraries\KTX-Software\include;..\Libraries\KTX-Software\other_include;..\Libraries\MaliGLES\include;..\Libraries\zlib\build</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib32;..\Libraries\glew\lib\$(Configuration)\$(PlatformName)\;..\Libraries\KTX-Software\build\msvs\win\vs2015\$(PlatformName)\$(Configuration)\lib;..\Libraries\MaliGLES;..\ElionLibraries\lib;..\Libraries\ElionMath\Lib;..\Libraries\Boost\stage-x86\lib;..\Libraries\libogg\win32;..\Libraries\libvorbis\win32;..\Libraries\portaudio\lib;..\Libraries\zlib\lib;..\Libraries\freetype\lib;..\Libraries\harfbuzz\lib;..\CommonLib;..\Libraries\CRC32\Lib;..\Libraries\CryptBlowfish\Lib;..\Libraries\CrashRpt\lib;$(SolutionDir)$(Configuration)\;..\Libraries\SDL2\lib\Win32\Release;..\Libraries\TBB\lib\ia32\vc14;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;USE_SDL2;LIVE_PRODUCTION;_WIN32_WINNT=0x0601;WIN64;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;..\Libraries\VulkanMemoryAllocator\src;..\Libraries\SDL2\include;..\Libraries\SDL2_image\;.\;..\ElionBase;..\CPUInfo\include;..\ElionLibraries\Shared;..\ElionLibraries\ElionNetwork;..\Libraries\ElionMath;..\Libraries\libogg\include;..\Libraries\libvorbis\include;..\Libraries\portaudio\include;..\Libraries\glm;..\Libraries\gli;..\Libraries\CRC32;..\Libraries\CryptBlowfish;..\Libraries\DirectXTex;..\Libraries\DirectXTK;..\Libraries\freetype\include;..\Libraries\harfbuzz\src;..\Libraries\RapidJSON;..\CommonLib;..\Shared;..\Libraries\zlib;..\Libraries\TBB\include;..\Libraries\Boost;..\Libraries\CrashRpt\include;..\Libraries\glew\include;..\Libraries\KTX-Software\include;..\Libraries\KTX-Software\other_include;..\Libraries\MaliGLES\include;..\Libraries\zlib\build64;</AdditionalIncludeDirectories>
+      <Optimization>MaxSpeed</Optimization>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib;..\Libraries\glew\lib\$(Configuration)\$(PlatformName)\;..\Libraries\SDL2\lib\$(Platform)\$(Configuration)\;..\Libraries\SDL2_image\VisualC\$(Platform)\$(Configuration)\;..\Libraries\KTX-Software\build\msvs\win\vs2015\$(PlatformName)\$(Configuration)\lib;..\Libraries\MaliGLES;..\ElionLibraries\lib;..\Libraries\ElionMath\Lib;..\Libraries\Boost\stage-x64\lib;..\Libraries\libogg\win32;..\Libraries\libvorbis\win32;..\Libraries\portaudio\lib;..\Libraries\zlib\lib;..\Libraries\freetype\lib;..\Libraries\harfbuzz\lib;..\CommonLib;..\Libraries\CRC32\Lib;..\Libraries\CryptBlowfish\Lib;..\Libraries\CrashRpt\lib;..\Libraries\TBB\lib\intel64\vc14;$(SolutionDir)$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='InternalRelease|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING;USE_SDL2;INTERNAL_SERVER;_WIN32_WINNT=0x0601;WIN64;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;..\Libraries\VulkanMemoryAllocator\src;..\Libraries\SDL2\include;..\Libraries\SDL2_image\;.\;..\ElionBase;..\CPUInfo\include;..\ElionLibraries\Shared;..\ElionLibraries\ElionNetwork;..\Libraries\ElionMath;..\Libraries\libogg\include;..\Libraries\libvorbis\include;..\Libraries\portaudio\include;..\Libraries\glm;..\Libraries\gli;..\Libraries\CRC32;..\Libraries\CryptBlowfish;..\Libraries\DirectXTex;..\Libraries\DirectXTK;..\Libraries\freetype\include;..\Libraries\harfbuzz\src;..\Libraries\RapidJSON;..\CommonLib;..\Shared;..\Libraries\zlib;..\Libraries\TBB\include;..\Libraries\Boost;..\Libraries\CrashRpt\include;..\Libraries\glew\include;..\Libraries\KTX-Software\include;..\Libraries\KTX-Software\other_include;..\Libraries\MaliGLES\include;..\Libraries\zlib\build64;</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib;..\Libraries\glew\lib\$(Configuration)\$(PlatformName)\;..\Libraries\KTX-Software\build\msvs\win\vs2015\$(PlatformName)\$(Configuration)\lib;..\Libraries\MaliGLES;..\ElionLibraries\lib;..\Libraries\ElionMath\Lib;..\Libraries\Boost\stage-x64\lib;..\Libraries\libogg\win32;..\Libraries\libvorbis\win32;..\Libraries\portaudio\lib;..\Libraries\zlib\lib;..\Libraries\freetype\lib;..\Libraries\harfbuzz\lib;..\CommonLib;..\Libraries\CRC32\Lib;..\Libraries\CryptBlowfish\Lib;..\Libraries\CrashRpt\lib;$(SolutionDir)$(Platform)\$(Configuration)\;..\Libraries\SDL2\lib\x64\Release;..\Libraries\TBB\lib\intel64\vc14;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mu_main.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="elion.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mu_main.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='InternalDebug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='InternalDebug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugOptimized|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugOptimized|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='InternalRelease|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='InternalRelease|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mu_main.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
